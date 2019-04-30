@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<!-- <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
   </h1>
@@ -18,4 +18,39 @@
   </li>
 </ul>
 
-<router-outlet></router-outlet>
+<router-outlet></router-outlet> -->
+<!-- 
+<h1>test</h1>
+<div class="wrapper" fxLayout="row" fxFlexFill>
+  <!- - <div fxLayout="column" fxFlexFill> - ->
+  <div class="tab" fxFlex>#1
+  </div>
+  <div>
+    <div class="tab" fxFlex>
+      #2
+    </div>
+  </div>
+</div> -->
+
+<div class="containerX">
+    <div class="colorNested box" fxLayout="column">
+      <header>header</header>
+      <div id="filter-bar">Fliter Bar</div>
+      <div id="main" fxLayout="row" fxLayout.xs="column" fxFlex>
+        <nav fxFlex="1 6 20%" fxFlexOrder fxFlexOrder.xs="2">
+          <div id="main" fxLayout="row wrap" fxLayout.xs="column" fxFlex>
+            <mat-card id="time-filter" fxFlex="100%"></mat-card>
+            <mat-card id="device-filter" fxFlex="100%"></mat-card>
+          </div>
+        </nav>
+        <article fxFlex="3 1 80%" fxFlexOrder fxFlexOrder.xs="1">
+            <div id="main" fxLayout="row wrap" fxLayout.xs="column" fxFlex>
+            <mat-card id="time-series-card" fxFlex="100%"></mat-card>
+            <mat-card id="device-split-card" fxFlex="30%"></mat-card>
+            <mat-card id="location-card" fxFlex="66%"></mat-card>
+          </div>             
+        </article>
+      </div>
+      <footer>footer</footer>
+    </div>
+  </div>

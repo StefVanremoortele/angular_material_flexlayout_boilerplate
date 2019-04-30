@@ -1,0 +1,100 @@
+// :host {
+//   min-height: 100vh;
+//     .wrapper .tab{
+//         background-color: blue;
+//         font-size: 2em;
+//     }
+// }
+
+
+.colorNested, .containerX {
+    min-height: 100vh;
+
+    background: #999999;
+  }
+  
+  article, nav, aside, header, footer {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7px;
+  }
+  
+  #main > article {
+    border-color: #cccc33;
+    background: #dddd88;
+    cursor: pointer;
+  }
+  
+  #main > nav, #main > aside {
+    border-color: #8888bb;
+    background: #ccccff;
+  }
+  
+  header, footer {
+    border-color: #eebb55;
+    background: #ffeebb;
+  }
+  
+  #filter-bar {
+    border-color: #eebb55;
+    background: #ffeebb;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7px;
+  }
+  
+  mat-card > mat-card-actions:last-child {
+    padding-bottom: 16px;
+  }
+  
+  mat-card > mat-card-actions > button {
+    margin-left: 10px;
+  }
+  
+  #time-filter {
+    border-color: #eebb55;
+    background: #ffeebb;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7px;
+  }
+  
+  #device-filter {
+    border-color: #eebb55;
+    background: #ffeecc;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7px;
+    height: 60px;
+  }
+  
+  #time-series-card {
+    border-color: #eebb55;
+    background: #ffeecc;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7px;
+  }
+  
+  #device-split-card {
+    border-color: #eebb55;
+    background: #ffeecc;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7px;
+  }
+  
+  #location-card{
+    border-color: #eebb55;
+    background: #ffeecc;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7px;
+  }

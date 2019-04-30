@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'containers';
+  content = `I'd like to fill the remaining vertical space`;
 }
